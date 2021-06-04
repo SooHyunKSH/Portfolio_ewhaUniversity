@@ -1,10 +1,10 @@
 $(function(){
-  /* 상단으로 이동버튼 */
   $(window).scroll(function(){
     console.log($(this).scrollTop());
     if( $(this).scrollTop() == 0 ){
-      $(".go_to_top").removeClass("on");
-      $(".header_top_wrap").removeClass("on");
+      $(".go_to_top").removeClass("on"); /* 상단으로 이동버튼 */
+      /* gnb 스트롤 옵션 */
+      $(".header_top_wrap").removeClass("on"); 
       $(".header_md_wrap").removeClass("on");
       $(".header_bottom_wrap").removeClass("on");
     }else{
