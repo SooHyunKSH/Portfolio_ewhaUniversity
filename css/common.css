@@ -41,7 +41,7 @@ a {
 }
 
 .go_to_top a{
-  width: 100%;
+  display: block;
   height: 100%;
 }
 
@@ -308,6 +308,8 @@ a {
   text-align: left;
 }
 
+
+
 #header
   .header_bottom_wrap
   .header_bottom_inner
@@ -367,6 +369,30 @@ a {
   font-size: 15px;
   line-height: 23px;
   color: #9ac1b2;
+}
+
+#header
+  .header_bottom_wrap
+  .header_bottom_inner
+  .gnb
+  li
+  .sub_gnb
+  > ul
+  > li
+  .sub_gnb02
+  li:hover a{
+    color: #fff;
+  }
+
+/* common btn */
+.more_view {
+  position: absolute;
+  right: 0;
+  top: 150px;
+  padding: 5px;
+  border-bottom: 1px solid #333;
+  font-size: 16px;
+  text-align: center;
 }
 
 /* title_box 공통 */

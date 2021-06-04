@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
 /* container 영역 */
-/* common 영역 */
-.more_view {
-  position: absolute;
-  right: 0;
-  top: 150px;
-  padding: 5px;
-  border-bottom: 1px solid #333;
-  font-size: 16px;
-  text-align: center;
-}
 
 /* main slide 영역 */
 .swiper-container {

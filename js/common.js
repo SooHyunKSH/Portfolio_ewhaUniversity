@@ -29,4 +29,12 @@ $(function(){
     $(this).children(".sub_gnb").removeClass("on");
   });
 
+  /* subpage tab menu 나타나기 */
+  $(".tab_box > ul > li").mouseenter(function(){
+    $(this).siblings().children(".sub_tab").removeClass("on");
+    $(this).children(".sub_tab").addClass("on");
+  }).mouseleave(function(){
+    $(this).children(".sub_tab").removeClass("on");
+  });
+
 })
