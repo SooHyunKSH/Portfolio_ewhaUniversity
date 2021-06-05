@@ -29,7 +29,7 @@ $(function(){
     $(this).children(".sub_gnb").removeClass("on");
   });
 
-  /* subpage tab menu 나타나기 */
+  /* subpage 상단 tab menu 나타나기 */
   $(".tab_box > ul > li").mouseenter(function(){
     $(this).siblings().children(".sub_tab").removeClass("on");
     $(this).children(".sub_tab").addClass("on");
@@ -37,4 +37,30 @@ $(function(){
     $(this).children(".sub_tab").removeClass("on");
   });
 
+      /* click list li 클릭 시 display0$ 나오기 */
+      $(".click_list li").click(function() {
+        $(".click_list li").removeClass("on");
+        $(this).addClass("on");
+        let indexNum = $(this).index() + 1;
+        $(".display_wrap .display_box").css("display", "none");
+        $(".display_wrap .display_box").each(function() {
+          let thisIndex = $(this).index() + 1;
+          if (indexNum == thisIndex) {
+            $(this).css("display", "block");
+          }
+        });
+      });
+
+      $(".click_list_type02 li").click(function() {
+        $(".click_list_type02 li").removeClass("on");
+        $(this).addClass("on");
+        let indexNum = $(this).index() + 1;
+        $(".display_wrap .display_box_type02").css("display", "none");
+        $(".display_wrap .display_box_type02").each(function() {
+          let thisIndex = $(this).index() + 1;
+          if (indexNum == thisIndex) {
+            $(this).css("display", "block");
+          }
+        });
+      });
 })
