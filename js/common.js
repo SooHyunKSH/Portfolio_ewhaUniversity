@@ -1,17 +1,21 @@
 $(function(){
   $(window).scroll(function(){
-    console.log($(this).scrollTop());
+    if( $(this).innerWidth() > 980){
+      if( $(this).scrollTop() == 0 ){
+        /* gnb 스트롤 옵션 */
+        $(".header_top_wrap").removeClass("on"); 
+        $(".header_md_wrap").removeClass("on");
+        $(".header_bottom_wrap").removeClass("on");
+      }else{
+        $(".header_top_wrap").addClass("on");
+        $(".header_md_wrap").addClass("on");
+        $(".header_bottom_wrap").addClass("on");
+      };
+    }
     if( $(this).scrollTop() == 0 ){
       $(".go_to_top").removeClass("on"); /* 상단으로 이동버튼 */
-      /* gnb 스트롤 옵션 */
-      $(".header_top_wrap").removeClass("on"); 
-      $(".header_md_wrap").removeClass("on");
-      $(".header_bottom_wrap").removeClass("on");
     }else{
       $(".go_to_top").addClass("on");
-      $(".header_top_wrap").addClass("on");
-      $(".header_md_wrap").addClass("on");
-      $(".header_bottom_wrap").addClass("on");
     };
   });
 
