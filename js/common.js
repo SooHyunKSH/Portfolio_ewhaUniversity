@@ -1,7 +1,7 @@
 $(function(){
   $(window).scroll(function(){
     if( $(this).innerWidth() > 980){
-      if( $(this).scrollTop() == 0 ){
+      if( $(this).scrollTop() < 50 ){
         /* gnb 스트롤 옵션 */
         $(".header_top_wrap").removeClass("on"); 
         $(".header_md_wrap").removeClass("on");

@@ -470,6 +470,10 @@
   box-sizing: border-box;
 }
 
+.section03_inner .info_wrap .type02 .event_wrap ul li:hover{
+  background:#e82f68;
+}
+
 .section03_inner .info_wrap .type02 .event_wrap ul li a .day_box {
   padding-bottom: 20px;
 }

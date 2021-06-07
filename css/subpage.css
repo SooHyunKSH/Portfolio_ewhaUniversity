@@ -876,6 +876,83 @@ section {
   border-right: 1px solid #d8d8d8;
 }
 
+.professor_list {
+  border-top: 1px solid #222;
+}
+
+.professor_list > ul > li {
+  overflow: hidden;
+  width: 50%;
+  padding: 20px;
+  border-bottom: 1px solid #d8d8d8;
+  box-sizing: border-box;
+}
+
+.professor_list > ul > li:nth-of-type(4n) {
+  padding: 20px;
+}
+
+.professor_list > ul > li a div {
+  float: left;
+}
+
+.professor_list > ul > li a .professor_img {
+  width: 200px;
+}
+
+.professor_list > ul > li a .professor_img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.professor_list > ul > li a .professor_text {
+  width: calc(100% - 200px);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.professor_list > ul > li a .professor_text h5{
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.professor_list > ul > li a .professor_text ul{
+  padding-bottom: 1.5rem;
+}
+
+.professor_list > ul > li a .professor_text ul li{
+  position: relative;
+  font-size: 2.1rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  padding: 0 0 5px 12px;
+}
+
+.professor_list > ul > li a .professor_text ul li::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0.85rem;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: #d3d3d3;
+  border-radius: 100%;
+}
+
+
+.display_box_type02{
+  display: none;
+}
+
+.display_box_type02:nth-of-type(1){
+  display: block;
+}
+
 /* sub04 영역 */
 .section02_slide {
   padding-bottom: 85px;
@@ -1234,6 +1311,10 @@ section {
   color: #4d4d4d;
 }
 
+.login_search_btn{
+  margin: 2.5rem 0;
+}
+
 /* 반응형 */
 @media screen and (max-width: 1100px) {
   .sub_section01 .sub_section_inner .section_banner .banner_img {
@@ -1243,5 +1324,28 @@ section {
     width: 100%;
     margin-top: 0;
     padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .top_banner{
+    position: relative;
+    top: 92px;
+  }
+  .tab_menu{
+    position: relative;
+    top: 92px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .tab_menu_inner .item{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .tab_menu_inner .tab .tab_box > ul > li{
+    min-width: 16rem
   }
 }
