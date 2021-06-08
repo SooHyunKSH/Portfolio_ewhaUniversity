@@ -19,6 +19,7 @@
 #header .header_bottom_wrap .header_bottom_inner .gnb li a.current::after {
   display: block;
   background-image: url("../img/sub_common/ico-gnb-hover.png");
+  background-size: cover;
 }
 
 #header .header_bottom_wrap .header_bottom_inner .login_search {
@@ -363,7 +364,7 @@ section {
 }
 
 .sub_section01 .sub_section_inner .section_banner {
-  padding-bottom: 45px;
+  padding-bottom: 4.5rem;
 }
 
 .sub_section01 .sub_section_inner .section_banner .banner_img {
@@ -379,8 +380,8 @@ section {
   float: left;
   width: 50%;
   box-sizing: border-box;
-  padding-left: 45px;
-  margin-top: 220px;
+  padding-left: 4.5rem;
+  margin-top: 22rem;
 }
 
 .sub_section01 .sub_section_inner .section_banner::after {
@@ -390,12 +391,12 @@ section {
 }
 
 .sub_section01 .sub_section_inner .text_box {
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 
 .sub_section01 .sub_section_inner .text_box p {
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
   color: #222;
 }
 
@@ -405,20 +406,20 @@ section {
 
 .sub_section01 .sub_section_inner .sign span {
   display: block;
-  padding-bottom: 10px;
-  font-size: 14px;
-  line-height: 20px;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
   font-weight: 400;
   color: #000;
 }
 
 /* sub02 영역 */
 .sub02_section01 {
-  padding-bottom: 110px;
+  padding-bottom: 11rem;
 }
 
 .sub02_section01 .sub_section_inner .section_contents {
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 
 .sub02_section01 .sub_section_inner .section_contents::after {
@@ -429,7 +430,7 @@ section {
 
 .sub02_section01 .sub_section_inner .section_contents .content_img {
   float: left;
-  padding-right: 35px;
+  padding-right: 3.5rem;
   width: 28%;
   box-sizing: border-box;
 }
@@ -441,17 +442,17 @@ section {
 .sub02_section01 .sub_section_inner .section_contents .content_text {
   float: left;
   width: calc(74% - 35px);
-  padding-top: 20px;
+  padding-top: 2rem;
   box-sizing: border-box;
 }
 
 .sub02_section01 .sub_section_inner .section_contents .content_text .text_top {
   position: relative;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   font-weight: 500;
-  padding-bottom: 20px;
-  margin-bottom: 25px;
+  padding-bottom: 2rem;
+  margin-bottom: 2.5rem;
   border-bottom: 1px solid #e1e1e1;
 }
 
@@ -900,7 +901,7 @@ section {
   width: 200px;
 }
 
-.professor_list > ul > li a .professor_img img{
+.professor_list > ul > li a .professor_img img {
   width: 100%;
   object-fit: cover;
 }
@@ -912,7 +913,7 @@ section {
   vertical-align: middle;
 }
 
-.professor_list > ul > li a .professor_text h5{
+.professor_list > ul > li a .professor_text h5 {
   font-size: 2.8rem;
   line-height: 3.5rem;
   font-weight: 500;
@@ -920,11 +921,11 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.professor_list > ul > li a .professor_text ul{
+.professor_list > ul > li a .professor_text ul {
   padding-bottom: 1.5rem;
 }
 
-.professor_list > ul > li a .professor_text ul li{
+.professor_list > ul > li a .professor_text ul li {
   position: relative;
   font-size: 2.1rem;
   line-height: 2.6rem;
@@ -932,8 +933,8 @@ section {
   padding: 0 0 5px 12px;
 }
 
-.professor_list > ul > li a .professor_text ul li::before{
-  content: '';
+.professor_list > ul > li a .professor_text ul li::before {
+  content: "";
   display: block;
   position: absolute;
   top: 0.85rem;
@@ -944,12 +945,11 @@ section {
   border-radius: 100%;
 }
 
-
-.display_box_type02{
+.display_box_type02 {
   display: none;
 }
 
-.display_box_type02:nth-of-type(1){
+.display_box_type02:nth-of-type(1) {
   display: block;
 }
 
@@ -1311,7 +1311,7 @@ section {
   color: #4d4d4d;
 }
 
-.login_search_btn{
+.login_search_btn {
   margin: 2.5rem 0;
 }
 
@@ -1319,6 +1319,8 @@ section {
 @media screen and (max-width: 1100px) {
   .sub_section01 .sub_section_inner .section_banner .banner_img {
     width: 100%;
+    margin: 0 auto;
+    float: none;
   }
   .sub_section01 .sub_section_inner .section_banner .banner_slogan {
     width: 100%;
@@ -1328,24 +1330,32 @@ section {
 }
 
 @media screen and (max-width: 980px) {
-  .top_banner{
+  .top_banner {
     position: relative;
     top: 92px;
   }
-  .tab_menu{
+  .tab_menu {
     position: relative;
     top: 92px;
+  }
+
+  .sub_section01 .sub_section_inner .section_banner .banner_img {
+    width: 70%;
+  }
+
+  .sub_section01 .sub_section_inner .section_banner .banner_slogan img {
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 768px){
-  .tab_menu_inner .item{
+@media screen and (max-width: 768px) {
+  .tab_menu_inner .item {
     display: none;
   }
 }
 
-@media screen and (max-width: 650px){
-  .tab_menu_inner .tab .tab_box > ul > li{
-    min-width: 16rem
+@media screen and (max-width: 650px) {
+  .tab_menu_inner .tab .tab_box > ul > li {
+    min-width: 16rem;
   }
 }

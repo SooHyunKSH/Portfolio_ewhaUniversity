@@ -223,6 +223,7 @@
   position: absolute;
   width: 50%;
   right: 0;
+  object-fit: cover;
 }
 
 .sec02_slide .sec_bottom_slide img {
@@ -284,6 +285,7 @@
 
 .sec02_pagination .swiper-pagination-bullet-active {
   background-color: #e82f68;
+  border: 1px solid #e82f68;
 }
 
 .sec02_pagination {
@@ -294,7 +296,7 @@
 .sec02_pagination span {
   position: relative;
   left: 5%;
-  border: 1px solid #000;
+  border: 1px solid #4a4a4a;
 }
 
 .section02_slide::after {
@@ -470,8 +472,8 @@
   box-sizing: border-box;
 }
 
-.section03_inner .info_wrap .type02 .event_wrap ul li:hover{
-  background:#e82f68;
+.section03_inner .info_wrap .type02 .event_wrap ul li:hover {
+  background: #e82f68;
 }
 
 .section03_inner .info_wrap .type02 .event_wrap ul li a .day_box {
@@ -649,6 +651,7 @@
 /* section05 영역 */
 .section05 {
   background: #efefef;
+  overflow: hidden;
 }
 
 .section05 .section05_inner {
@@ -679,9 +682,12 @@
   margin-right: 0;
 }
 
+.section05 .section05_inner .swiper-container {
+  overflow: visible;
+}
+
 .section05 .section05_inner .content_box {
   width: 100%;
-  overflow: hidden;
 }
 
 .section05 .section05_inner .content_box .item_wrap {
@@ -861,12 +867,7 @@ section .section06_inner {
   margin: 0 auto;
 }
 
-.section07_inner .banner_wrap {
-  position: relative;
-  padding-top: 55px;
-}
-
-.section07_inner .banner_wrap .banner_box {
+.section07_inner .banner_wrap .section07_inner .banner_wrap .banner_box {
   display: inline-block;
   width: calc(100% / 6 - 3rem);
   margin-right: 3rem;
@@ -957,6 +958,10 @@ section .section06_inner {
   }
   .section04 .section04_inner .sec04_content_wrap .sec04_text_box {
     width: 100%;
+  }
+
+  .section07_inner .banner_wrap {
+    padding-top: 30px;
   }
 }
 
