@@ -34,6 +34,10 @@ section {
   margin: 0 auto;
 }
 
+section .sub_section_inner {
+  margin: 0 auto;
+}
+
 .top_banner {
   width: 100%;
   padding: 6.25rem 0;
@@ -268,9 +272,9 @@ section {
 
 .search_box form fieldset input {
   display: inline-block;
-  min-width: 250px;
-  font-size: 15px;
-  padding: 8.5px 10px;
+  min-width: 25rem;
+  font-size: 1.5rem;
+  padding: 0.85rem 1rem;
   color: #666;
   border: 1px solid #dedede;
   box-sizing: border-box;
@@ -294,13 +298,13 @@ section {
 .reserch_list > ul > li {
   position: relative;
   float: left;
-  width: calc(25% - 24px);
-  padding: 0 32px 42px 0;
+  width: calc(25% - 2.4rem);
+  padding: 0 3.2rem 4.2rem 0;
   overflow: hidden;
 }
 
 .reserch_list > ul > li:nth-of-type(4n) {
-  padding: 0 0 42px 0;
+  padding: 0 0 4.2rem 0;
 }
 
 .reserch_list > ul > li a {
@@ -309,7 +313,7 @@ section {
 
 .reserch_list > ul > li a .reserch_img {
   padding-bottom: 10px;
-  height: 216px;
+  height: 21.6rem;
 }
 
 .reserch_list > ul > li a .reserch_img img {
@@ -322,9 +326,9 @@ section {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: 50px;
-  font-size: 17px;
-  line-height: 26px;
+  height: 5rem;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
   font-weight: 400;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -334,7 +338,7 @@ section {
 
 .pageing ul {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 3.5rem;
 }
 
 .pageing ul li {
@@ -347,7 +351,7 @@ section {
   position: relative;
   display: block;
   padding: 8px 12px;
-  font-size: 14px;
+  font-size: 1.4rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
@@ -441,15 +445,15 @@ section {
 
 .sub02_section01 .sub_section_inner .section_contents .content_text {
   float: left;
-  width: calc(74% - 35px);
+  width: calc(74% - 3.5rem);
   padding-top: 2rem;
   box-sizing: border-box;
 }
 
 .sub02_section01 .sub_section_inner .section_contents .content_text .text_top {
   position: relative;
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: 2.3rem;
+  line-height: 3.1rem;
   font-weight: 500;
   padding-bottom: 2rem;
   margin-bottom: 2.5rem;
@@ -476,13 +480,13 @@ section {
   .section_contents
   .content_text
   .text_bottom {
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 1.7rem;
+  line-height: 3rem;
   color: #222;
 }
 
 .section_contents .inner_box {
-  padding-left: 35px;
+  padding-left: 3.5rem;
 }
 
 .section_contents .inner_box > div {
@@ -498,37 +502,37 @@ section {
 .section_contents .inner_box div .inner_title_wrap .inner_title {
   position: relative;
   display: inline-block;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
   font-weight: 500;
-  padding: 0 0 10px 12px;
+  padding: 0 0 1rem 1.2rem;
 }
 
 .section_contents .inner_box div .inner_title_wrap .inner_title::before {
   content: "";
   position: absolute;
   display: block;
-  width: 5px;
-  height: 5px;
-  top: 10px;
+  width: 0.5rem;
+  height: 0.5rem;
+  top: 1rem;
   left: 0;
   border-radius: 50%;
   background-color: #e02962;
 }
 
 .section_contents .inner_box div .inner_title_wrap .box01 {
-  padding-bottom: 20px;
-  padding-left: 12px;
+  padding-bottom: 2rem;
+  padding-left: 1.2rem;
   overflow: hidden;
 }
 
 .section_contents .inner_box div .inner_title_wrap .box01 p {
   float: left;
   position: relative;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
   vertical-align: middle;
-  padding: 6px 15px 10px 0;
+  padding: 0.6rem 1.5rem 1rem 0;
 }
 
 .section_contents .inner_box div .inner_title_wrap .box01 .inner_btn {
@@ -538,7 +542,7 @@ section {
 .section_contents .inner_box div .box02 {
   display: table;
   width: 100%;
-  padding: 20px;
+  padding: 2rem;
   table-layout: fixed;
   border: 1px solid #cdcdcd;
   box-sizing: border-box;
@@ -550,31 +554,31 @@ section {
 
 .section_contents .inner_box div .box02 ul:nth-of-type(2) {
   display: table-cell;
-  padding-left: 50px;
+  padding-left: 5rem;
 }
 
 .section_contents .inner_box div .box02 ul li {
   position: relative;
-  padding: 0 0 6px 12px;
-  line-height: 25px;
-  font-size: 16px;
+  padding: 0 0 0.6rem 1.2rem;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
 }
 
 .section_contents .inner_box div .box02 ul li::before {
   content: "";
   display: block;
   position: absolute;
-  width: 5px;
-  height: 5px;
-  top: 11px;
+  width: 0.5rem;
+  height: 0.5rem;
+  top: 1.1rem;
   left: 0;
   border-radius: 100%;
   background-color: #ccc;
 }
 
 .section_contents .inner_box div .box02_tab {
-  padding-left: 12px;
-  padding-top: 20px;
+  padding-left: 1.2rem;
+  padding-top: 2rem;
 }
 
 .section_contents .inner_box div .box02_tab ul {
@@ -618,12 +622,12 @@ section {
 .section_contents .inner_box div .box02_tab ul li a {
   display: table-cell;
   position: relative;
-  width: 192px;
-  height: 35px;
-  padding: 10px 5px;
+  width: 19.2rem;
+  height: 3.5rem;
+  padding: 1rem 0.5rem;
   vertical-align: middle;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
 }
 
 /* sub03 영역 */
@@ -636,19 +640,19 @@ section {
 }
 
 .display_wrap .display_box .box {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .display_wrap .display_box .box .content {
   display: table;
-  padding-left: 30px;
-  margin-bottom: 30px;
+  padding-left: 3rem;
+  margin-bottom: 3rem;
 }
 
 .display_wrap .display_box .box .content .con_img {
   display: table-cell;
   width: 26%;
-  padding-right: 45px;
+  padding-right: 4.5rem;
 }
 
 .display_wrap .display_box .box .content .con_img img {
@@ -660,14 +664,14 @@ section {
   display: table-cell;
   width: 70%;
   vertical-align: middle;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   color: #222;
   font-weight: 300;
 }
 
 .display_wrap .display_box .box .table_wrap {
-  padding-left: 30px;
+  padding-left: 3rem;
 }
 
 .display_wrap .display_box .box .table_wrap .table_box {
@@ -713,7 +717,7 @@ section {
   > div
   > div {
   display: table-cell;
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 .display_wrap
@@ -726,8 +730,8 @@ section {
   > div
   .table_title {
   width: 300px;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
   font-weight: 500;
   vertical-align: middle;
   box-sizing: border-box;
@@ -745,8 +749,8 @@ section {
   > div
   .table_con {
   width: 65%;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
   font-weight: 300;
   vertical-align: middle;
   box-sizing: border-box;
@@ -763,51 +767,51 @@ section {
 }
 
 .table_wrap table tbody tr th {
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 500;
   text-align: center;
-  line-height: 24px;
+  line-height: 2.4rem;
   border-bottom: 1px solid#d8d8d8;
   border-right: 1px solid#d8d8d8;
   color: #333;
   word-wrap: break-word;
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   background: #f2f8f6;
 }
 
 .table_wrap table tbody tr td {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   text-align: left;
-  line-height: 24px;
+  line-height: 2.4rem;
   border-bottom: 1px solid#d8d8d8;
   color: #333;
   word-wrap: break-word;
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   vertical-align: middle;
 }
 
 .display_wrap .display_box .box .table_wrap p {
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 1.7rem;
+  line-height: 3rem;
   font-weight: 300;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
   color: #222;
 }
 
 .display_wrap .display_box .box .table_wrap ul li {
   position: relative;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 1.7rem;
+  line-height: 3rem;
   font-weight: 500;
-  padding: 0 0 6px 12px;
+  padding: 0 0 0.6rem 1.2rem;
 }
 
 .display_wrap .display_box .box .table_wrap ul li::after {
   content: "";
   display: block;
   position: absolute;
-  top: 10px;
+  top: 1rem;
   left: 0;
   width: 5px;
   height: 5px;
@@ -816,12 +820,12 @@ section {
 }
 
 .display_wrap .display_box .box .table_wrap table thead tr th {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
   font-weight: 500;
   text-align: center;
   word-wrap: break-word;
-  padding: 15px;
+  padding: 1.5rem;
   border-bottom: 1px solid #d8d8d8;
   border-right: 1px solid #d8d8d8;
   color: #333;
@@ -843,8 +847,8 @@ section {
 
 .table_wrap .degree_courses tbody tr td .td_check {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 100%;
   background: #015c38;
   text-indent: -9999px;
@@ -884,13 +888,13 @@ section {
 .professor_list > ul > li {
   overflow: hidden;
   width: 50%;
-  padding: 20px;
+  padding: 2rem;
   border-bottom: 1px solid #d8d8d8;
   box-sizing: border-box;
 }
 
 .professor_list > ul > li:nth-of-type(4n) {
-  padding: 20px;
+  padding: 2rem;
 }
 
 .professor_list > ul > li a div {
@@ -898,7 +902,7 @@ section {
 }
 
 .professor_list > ul > li a .professor_img {
-  width: 200px;
+  width: 20rem;
 }
 
 .professor_list > ul > li a .professor_img img {
@@ -907,8 +911,8 @@ section {
 }
 
 .professor_list > ul > li a .professor_text {
-  width: calc(100% - 200px);
-  padding: 20px 30px;
+  width: calc(100% - 20rem);
+  padding: 2rem 3rem;
   box-sizing: border-box;
   vertical-align: middle;
 }
@@ -1047,19 +1051,23 @@ section {
 
 .calender_icon .icon_wrap {
   float: right;
-  margin-left: 30px;
+  margin-left: 3rem;
   vertical-align: middle;
 }
 
 .calender_icon .icon_wrap a {
   position: relative;
   display: inline-block;
-  width: 32px;
-  height: 30px;
-  margin-right: 10px;
+  width: 3.2rem;
+  height: 3rem;
+  margin-right: 1rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.calender_icon .icon_wrap a:nth-of-type(2){
+  margin-left: 1rem;
 }
 
 .calender_icon .icon_wrap a:nth-of-type(1) {
@@ -1083,13 +1091,13 @@ section {
 .calender_icon .calender_btn {
   float: right;
   position: relative;
-  top: -5px;
+  top: -0.5rem;
   display: inline-block;
-  padding: 11px 20px;
-  font-size: 15px;
+  padding: 1.1rem 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   border: 1px solid #666;
-  border-radius: 5px;
+  border-radius: 5rem;
 }
 
 .calender_icon .calender_btn:hover {
@@ -1346,6 +1354,22 @@ section {
   .sub_section01 .sub_section_inner .section_banner .banner_slogan img {
     width: 50%;
   }
+
+  .sub02_section01 .sub_section_inner .section_contents .content_img {
+    padding-top: 2rem;
+  }
+
+  .reserch_list > ul > li {
+    width: calc(50% - 2.4rem);
+  }
+
+  .reserch_list > ul > li:nth-of-type(2n) {
+    padding: 0 0 4.2rem 0;
+  }
+
+  .reserch_list > ul > li a .reserch_img {
+    height: 37rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1355,7 +1379,134 @@ section {
 }
 
 @media screen and (max-width: 650px) {
+  .search_box form fieldset button {
+    background-size: 50%;
+  }
+
   .tab_menu_inner .tab .tab_box > ul > li {
     min-width: 16rem;
+  }
+
+  .sub02_section01 .sub_section_inner .section_contents .content_img {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .sub02_section01 .sub_section_inner .section_contents .content_text {
+    width: 100%;
+    padding-top: 4rem;
+  }
+
+  .section_contents .inner_box div .box02 ul:nth-of-type(1) {
+    display: block;
+  }
+
+  .section_contents .inner_box div .box02 ul:nth-of-type(2) {
+    display: block;
+    padding-left: 0;
+  }
+
+  .display_wrap .display_box .box .content {
+    padding-left: 0;
+  }
+
+  .display_wrap .display_box .box .content .con_img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .display_wrap .display_box .box .content .con_text {
+    display: block;
+    width: 100%;
+  }
+
+  .display_wrap .display_box .box .table_wrap {
+    padding-left: 0;
+  }
+
+  .display_wrap
+    .display_box
+    .box
+    .table_wrap
+    .table_box
+    .table_row
+    .row_wrap
+    > div
+    > div {
+    display: inline-block;
+  }
+
+  .display_wrap
+    .display_box
+    .box
+    .table_wrap
+    .table_box
+    .table_row
+    .row_wrap
+    > div
+    .table_title {
+    width: 100%;
+    border-right: none;
+  }
+
+  .table_wrap table tbody tr td {
+    padding: 1rem 0.2rem;
+  }
+
+  .professor_list > ul > li {
+    width: 100%;
+  }
+
+  .section04_slide_wrap .sec04_slide .slide_img {
+    width: 100%;
+    height: 40rem;
+  }
+
+  .section04_slide_wrap .sec04_slide .text_box {
+    width: 100%;
+  }
+
+  .sub04_section01 .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    left: 0;
+    top: auto;
+    bottom: 8rem;
+  }
+
+  .reserch_list > ul > li a .reserch_img{
+    height: 25rem
+}
+
+@media screen and (max-width: 500px) {
+  .sub_section01 .sub_section_inner .sign img {
+    width: 10rem;
+  }
+
+  .section_contents .inner_box {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tab_menu_inner .tab .go_to_home {
+    display: none;
+  }
+
+  .tab_menu_inner .tab .tab_box > ul > li {
+    min-width: 13rem;
+  }
+
+  .tab_menu_inner .tab .tab_box > ul > li > a {
+    background: url("../img/sub_common/ico-path-selected-open.png") no-repeat
+      right 12px center;
+  }
+  .reserch_list > ul > li{
+    width: 100%;
+  }
+
+  .reserch_list > ul > li a .reserch_img{
+    height: 30rem;
   }
 }

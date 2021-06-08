@@ -116,7 +116,7 @@
   .con_txt_box
   .con_main_txt {
   position: relative;
-  height: 60px;
+  height: 6rem;
   margin-bottom: 20px;
   padding-bottom: 18px;
   font-size: 2rem;
@@ -656,7 +656,7 @@
 
 .section05 .section05_inner {
   min-height: 690px;
-  padding-bottom: 140px;
+  padding-bottom: 14rem;
 }
 
 .section05 .section05_inner .title_box {
@@ -666,7 +666,7 @@
 .section05 .section05_inner .link_box {
   position: relative;
   float: right;
-  padding-top: 65px;
+  padding-top: 6.5rem;
 }
 
 .section05 .section05_inner .link_box ul {
@@ -914,6 +914,18 @@ section .section06_inner {
 }
 
 /* 반응형 */
+@media screen and (max-width: 1300px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-size: 25%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section07_inner .banner_wrap {
+    padding-top: 30px;
+  }
+}
 
 @media screen and (max-width: 980px) {
   .section01 .section01_inner .content_box .con01 {
@@ -930,6 +942,7 @@ section .section06_inner {
   .section01 .section01_inner .content_box .con02 > div .con_img a {
     height: 27rem;
   }
+
   .section02_inner {
     height: 200rem;
   }
@@ -960,8 +973,8 @@ section .section06_inner {
     width: 100%;
   }
 
-  .section07_inner .banner_wrap {
-    padding-top: 30px;
+  .section06_inner .sec06_box ul li {
+    padding-right: 10px;
   }
 }
 
@@ -1052,8 +1065,36 @@ section .section06_inner {
 }
 
 @media screen and (max-width: 375px) {
+  .section01 .section01_inner .content_box .con01 > div .con_img a {
+    height: 22rem;
+  }
+
+  .section01 .section01_inner .content_box .con02 > div .con_img a {
+    height: 22rem;
+  }
+
   .section05 .section05_inner .link_box {
     padding-top: 0;
     padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section04 .section04_inner .sec04_content_wrap .sec04_text_box .top_text li {
+    font-size: 1rem;
+  }
+
+  .section04
+    .section04_inner
+    .sec04_content_wrap
+    .sec04_text_box
+    .top_text
+    li:nth-child(1) {
+    background-size: 15%;
+    padding-left: 30px;
+  }
+
+  .section05 .section05_inner .link_box {
+    display: none;
   }
 }
