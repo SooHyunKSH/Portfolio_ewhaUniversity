@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 공통 header 영역 */
-#header .header_bottom_wrap .header_bottom_inner img {
+#header .header_bottom_wrap .header_bottom_inner .logo img {
   display: block;
   width: 14rem;
   float: left;
@@ -265,7 +265,7 @@ section .sub_section_inner {
   color: #fff;
 }
 
-.select_list{
+.select_list, .select_list02{
   display: none;
   position: relative;
   margin-bottom: 3rem;
@@ -274,7 +274,7 @@ section .sub_section_inner {
   background-size: 1.2rem;
 }
 
-.select_list label{
+.select_list label, .select_list02 label{
   position: absolute;
   display: block;
   color: #fff;
@@ -284,14 +284,14 @@ section .sub_section_inner {
   padding: 1.5rem 0;
 }
 
-#select_tab{
+#select_tab, #select_tab02{
   width: 100%;
   height: 4.5rem;
   color: #fff;
   opacity: 0;
 }
 
-#select_tab option{
+#select_tab option, #select_tab02 option{
   font-size: 1.5rem;
   color: #666;
 }
