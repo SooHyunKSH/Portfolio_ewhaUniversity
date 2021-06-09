@@ -67,4 +67,15 @@ $(function(){
           }
         });
       });
+
+          /* select list 클릭 시 display_box 나타내기 */
+    $("#select_tab").on("change", function (i) {
+      $(".display_wrap .display_box").each(function () {
+          if ($("#select_tab").val() == $(this).index() + 1) {
+              $(".display_wrap .display_box").css("display", "none");
+              $(this).css("display", "block");
+          }
+      })
+      console.log($('#select_tab').val())
+  });
 })
