@@ -2211,13 +2211,17 @@
                 });
                 let swiper03 = new Swiper('.swiper03', {
                     // Default parameters
-                    slidesPerView: 3,
+                    slidesPerView: 2,
                     spaceBetween: 10,
                     scrollbar: {
                         el: '.swiper-scrollbar'
                     },
                     // Responsive breakpoints
                     breakpoints: {
+                        500: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
                         768: {
                             slidesPerView: 4,
                             spaceBetween: 30

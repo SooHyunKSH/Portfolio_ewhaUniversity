@@ -1385,6 +1385,7 @@ section .sub_section_inner {
   .tab_menu {
     position: relative;
     top: 92px;
+    margin-bottom: 92px;
   }
 
   .sub_section01 .sub_section_inner .section_banner .banner_img {
@@ -1574,6 +1575,7 @@ section .sub_section_inner {
   }
   .tab_menu{
     top: 35px;
+    margin-bottom: 35px;
   }
 
   .display_wrap .display_box .box .table_wrap .table_box .table_row .row_wrap{

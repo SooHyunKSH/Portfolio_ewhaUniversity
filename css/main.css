@@ -1038,6 +1038,11 @@ section .section06_inner {
 }
 
 @media screen and (max-width: 500px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
   .section02_inner {
     height: 110rem;
   }
