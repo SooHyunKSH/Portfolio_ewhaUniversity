@@ -209,6 +209,10 @@ a {
   padding: 3.2rem 0.5rem;
 }
 
+#header .header_bottom_wrap.on .header_bottom_inner .logo img {
+  display: block;
+}
+
 #header .header_bottom_wrap.on .header_bottom_inner .gnb {
   width: 78%;
   float: left;
@@ -229,7 +233,7 @@ a {
 #header .header_bottom_wrap .header_bottom_inner {
   max-width: 1300px;
   margin: 0 auto;
-  /* padding: 0 2rem; */
+  padding: 0 2rem;
 }
 
 #header .header_bottom_wrap .header_bottom_inner .logo img {
@@ -500,8 +504,8 @@ a {
 .m_gnb > li > a {
   display: block;
   padding: 60px 10px 10px;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
   color: #fff;
   text-align: center;
   box-sizing: border-box;
@@ -563,10 +567,14 @@ a {
   background: #ebebeb url("../img/btn-m-menu-list-open.png") no-repeat right
     15px center;
   background-size: 12px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
-  line-height: 2.4rem;
+  line-height: 2.6rem;
   color: #000;
+}
+
+.m_sub_gnb > ul > li {
+  border-bottom: 1px solid #d0d0d0;
 }
 
 .m_sub_gnb02 {
@@ -579,8 +587,19 @@ a {
   position: relative;
   display: inline-block;
   padding: 10px 45px 10px 42px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: #222;
+}
+
+.m_sub_gnb02 > li > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 33px;
+  width: 4px;
+  height: 1px;
+  background: #222;
 }
 
 /* section common */
@@ -877,6 +896,7 @@ section.full .section_inner {
 
   #header .header_bottom_wrap .header_bottom_inner {
     position: relative;
+    padding: 0;
   }
 
   #header .header_bottom_wrap .header_bottom_inner .logo img {
